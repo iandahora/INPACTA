@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
+
+body {
+margin: 0;
+border: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('img/fundo.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+padding: 50px;
+}
+
+main{
+    display: flex;
+    margin-top: 2%;
+    width: 60vw;
+    height: 80vh; 
+    background: white; 
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.25); 
+    border-radius: 16px;
+}
+
+aside{
+    width: 30%;
+    background: #15158D; 
+    border-top-left-radius: 16px; 
+    border-bottom-left-radius: 16px;
+}
+
+nav{
+    width: 80%; 
+    height: 13%; 
+    background: #15158D;
+    border-top-right-radius: 16px; 
+}
+a{
+    text-decoration: none;
+}
+.bvd{
+    width: max-content;
+    color: white; 
+    font-size: 2rem; 
+    font-family: Poppins; 
+    font-weight: 900;
+    padding: 100% 0% 0% 13%; 
+}
+
+.cabecalho{
+    color: white; 
+    font-size: 1.5rem; 
+    font-family: Poppins; 
+    font-weight: 600; 
+}
+
+.marcaDagua{
+    margin-top: 7%;
+    margin-left: 24%;
+    width: min-content; 
+    position: absolute;
+    opacity: 10%;
+}
+
+.container {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+}
+
+.info {
+    width: min-content;
+    color: white; 
+    font-size: 1.5rem; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    margin-left: 80px;
+}
+
+
